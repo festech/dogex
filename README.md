@@ -8,11 +8,8 @@
   - browse the limitless variant of doges
   - and make them twist!
 
->This is just an example project preapared for the CaseWeek workshop purpose
 
+**This is just an example project preapared for the CaseWeek workshop purpose**
 
+After the CaseWeek event, we will put the notes regarding our workshop right in here :)
 
-
-**After the CaseWeek event, we will put the notes regarding our workshop right in here :)**
-
-NJoy!
