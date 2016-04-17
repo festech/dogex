@@ -1,0 +1,40 @@
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorPrimaryDark">@color/color_primary_dark</item>
+    </style>
+
+    <!-- ExpandableList elements root style -->
+    <style name="DogeListCommonElement">
+        <item name="android:layout_height">@dimen/list_element_height</item>
+        <item name="android:layout_width">match_parent</item>
+    </style>
+
+    <!-- Group element specific style -->
+    <style name="DogeListGroupElement" parent="DogeListCommonElement">
+        <item name="android:background">@drawable/doge_list_group_background</item>
+    </style>
+
+    <!-- Item element specific style -->
+    <style name="DogeListItemElement" parent="DogeListCommonElement">
+        <item name="android:background">@drawable/doge_list_item_background</item>
+    </style>
+
+    <!-- ExpandableList TextView root style -->
+    <style name="DogeListCommonText">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:textSize">@dimen/list_text_size</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:paddingLeft">@dimen/list_text_padding_left</item>
+        <item name="android:paddingRight">@dimen/list_text_padding_right</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+
+    <!-- Group element TextView root style -->
+    <style name="DogeListGroupText" parent="DogeListCommonText"/>
+
+    <!-- Item element TextView root style -->
+    <style name="DogeListItemText" parent="DogeListCommonText"/>
+</resources>
