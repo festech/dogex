@@ -8,12 +8,11 @@
   - browse the limitless variant of doges
   - and make them twist!
 
-> After seing the Dogex, nothing is normal back again. Perfect! *****
-
-> /Doge Magazine/
+>This is just an example project preapared for the CaseWeek workshop purpose
 
 
-### Ups, something is missing!
-After the CaseWeek event, we will put the notes regarding our workshop right in here :)
+
+
+**After the CaseWeek event, we will put the notes regarding our workshop right in here :)**
 
 NJoy!
