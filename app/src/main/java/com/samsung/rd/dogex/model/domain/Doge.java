@@ -11,6 +11,7 @@ public class Doge {
     private final long groupId;
     private final String name;
     private final int iconId;
+    private final boolean isFaved;
 
     private final static List<Integer> drawables = new ArrayList<>();
     private final static Random random = new Random();
@@ -31,6 +32,11 @@ public class Doge {
         this.groupId = groupId;
         this.name = name;
         iconId = drawables.get(random.nextInt(drawables.size()));
+        isFaved = random.nextInt() % 4 == 0;
+    }
+
+    public boolean isFaved() {
+        return isFaved;
     }
 
     public long getId() {

@@ -115,9 +115,6 @@ public class ExpandableAdapter extends BaseExpandableListAdapter {
         TextView nameTextView = (TextView)convertView.findViewById(R.id.item_name_text_view);
         ImageView imageView= (ImageView)convertView.findViewById(R.id.item_image);
 
-
-
-
         final DogeGroup dogeGroup = getDogeGroup(groupPosition);
         Doge doge = Preconditions.checkNotNull(
                 dogeGroup.getDoge(childPosition),
@@ -133,6 +130,9 @@ public class ExpandableAdapter extends BaseExpandableListAdapter {
                 return false;
             }
         });
+        if (doge.isFaved()) {
+            ((ImageView) convertView.findViewById(R.id.fave_heart)).setImageDrawable(activity.getResources().getDrawable(R.drawable.ic_favorite));
+        }
         return convertView;
     }
 

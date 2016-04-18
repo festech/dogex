@@ -6,7 +6,20 @@
         android:id="@+id/item_image"
         android:layout_width="@dimen/image_width"
         android:layout_height="@dimen/image_height" />
-    <TextView
-        android:id="@+id/item_name_text_view"
-        style="@style/DogeListGroupText"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/DogeListGroupText">
+        <TextView
+            android:id="@+id/item_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@color/text_color"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/fave_heart"/>
+    </LinearLayout>
 </LinearLayout>
