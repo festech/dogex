@@ -9,7 +9,7 @@
   - and make them twist!
 
 
-**This is just an example project preapared for the CaseWeek workshop purpose**
+**This is just an example project preapared for the CaseWeek workshop purpose (FULL of CCode and performance issues!!!)**
 
 After the CaseWeek event, we will put the notes regarding our workshop right in here :)
 
